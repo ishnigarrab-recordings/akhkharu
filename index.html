@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <meta name="description" content="Akhkharu: dark ambient, industial death, vampyric ritual music."/>
+		<meta name="keywords" content="Akhkharu, Michael W. Ford, Scorpios Androctonus, Brian Artwick, Annuna Ki, Akhtya, Akhtya Nachttoter, music, occult, ritual, industrial, dark ambient, ambient, Advaita Audio, Crimson Moon, Black Funeral, Darkness Enshroud, Valefor, Hexentanz, Black Seas of Infinity, vampyric">
+        <meta name="author" content="Akhkharu" />
+		<meta name="og:title" property="og:title" content="Akhkharu | Our Law is Blood... Silence is Our Mehod">
+		<link href="assets/img/wp-akhkharu-favicon.ico" rel="icon" type="image/x-icon" />
+        <title>Akhkharu | Our Law is Blood... Silence is Our Method</title>
+		<script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>		
+        <script src="js/BootstrapGrayscale.js"></script>
+        <link href="css/styles.css" type="text/css" rel="stylesheet" />
+        <link href="css/custom.css" type="text/css" rel="stylesheet" />
+		<link href="css/breaks.css" type="text/css" rel="stylesheet" />
+		<link href="css/conjure-circle.css" type="text/css" rel="stylesheet" />
+		<link href="css/logo.css" type="text/css" rel="stylesheet" />
+		<link href="css/glitch.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+		<!-- Circle -->
+		<div class="container-circle" id="circle" style="display:none">
+			<div class="row-sigil" id="row-sigil"></div>
+			<div class="row-circle spin">
+				<div class="row-glow" id="row-glow" style="display:none"></div>
+			</div>
+			<canvas id="plasma" style="display:none"></canvas>
+		</div>
+		<!-- Navbar -->
+		<nav>
+			<div class="nav-bg" id="nav-bg" style="display:none"></div>
+		   <div class="nav-brand black-shadow-xl" id="nav-brand" style="display:none">
+			  <a id="link-page-top" onclick="window.scrollTo(0, 0);">AKHKHARU</a>
+		   </div>
+		   <div class="menu">
+			  <ul>
+				 <li><a id="link-about" style="display:none" onclick="window.scrollTo(0, 0);"><img src="assets/img/wp-akhkharu-navlink-sigil-03.png" alt="sigil" width="50" height="50" /></a></li>
+				 <li><a id="link-project" style="display:none" onclick="window.scrollTo(0, 0);"><img src="assets/img/wp-akhkharu-navlink-sigil-04.png" alt="sigil" width="50" height="50" /></a></li>
+			  </ul>
+		   </div>
+		</nav>
+		<!-- Logo -->
+		<div class="container-logo" id="logo" style="display:none">
+			<div class="row-logo" id="row-logo"></div>
+		</div>
+		<!-- Masthead -->
+        <header class="masthead" id="masthead"></header>
+		<!-- About -->
+        <section class="about-section-custom" id="about" style="display:none">
+			<div class="container-xxl">
+				<div class="row-about justify-content-around">
+					<div class="col-4-about" id="aboutTop">
+						<div class="about-wrapper">
+							<img src="assets/img/wp-akhkharu-00-akhtya-nachttoter.png" alt="Akhtya Nachttoter" />
+							<div class="overlay-text">
+								<h5 class="black-shadow mb-0">Akhtya Nachttoter</h5>
+								<h6 class="text-white-50 mb-0">(Michael W. Ford)</h6>
+								<p class="text-white-50 mb-0"><i>Script & Vocal Evocation</i></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4-about" id="aboutTop">
+						<div class="about-wrapper">
+							<img src="assets/img/wp-akhkharu-00-scorpios-androctonus.png" alt="Scorpios Androctonus" />
+							<div class="overlay-text">
+								<h5 class="black-shadow mb-0">Scorpios Androctonus</h5>
+								<p class="text-white-50 mb-0"><i>Guitars & Bass</i></p>
+							</div>					
+						</div>
+					</div>
+					<div class="col-12-about" id="aboutBottom">
+						<div class="about-wrapper">
+							<img src="assets/img/wp-akhkharu-00-annuna-ki.png" alt="Annuna Ki" />
+							<div class="overlay-text">
+								<h5 class="black-shadow mb-0">Annuna Ki</h5>
+								<h6 class="text-white-50 mb-0">(Brian Artwick)</h6>
+								<p class="text-white-50 mb-0"><i>Music & Audio Sorcery</i></p>
+							</div>					
+						</div>
+					</div>
+					<div class="row-fill"></div>
+					<div class="col-12-footer-tag-about  black-shadow-xl" id="footer-tag-about">
+						<h2>Vampyric Ritual Music</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Project -->
+		<section class="project-section" id="project" style="display:none">		
+			<div class="container-lg">
+				<div class="row-project justify-content-center-project">		
+					<div class="col-12-project m-2 my-auto text-center">
+						<h1 class="h1-custom-light">Anthology</h1>
+					</div>
+					<!-- Akhkharu: Dimme-->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#texCollapse-08">
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-dimme-300.png" title="Akhkharu: Dimme" alt="Dimme Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="texCollapse-08">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">Dimme</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Re-issue of the seminal 1996 opus nocturne, Nos Noctium Dominarium:</p>
+									<p></p>
+									<p class="mb-0 project-description">CD version features a 4 page booklet of sigils and ships with exclusive AKHKHARU logo pin.</p>
+									<p></p>
+									<p class="mb-0 project-description">Cassette version features a 4 panel J-card of sigils, black shell with white ink, factory sealed in a clear norelco case, and ships with exclusive AKHKHARU logo pin.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 2023</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="http://dark-age-productions.com/" target="_blank">
+										Dark Age Productions</a> / 
+										<a class="label" href="http://www.advaitaaudio.com/" target="_blank">
+										Advaita Audio</a>
+									</p>
+									<p class="mb-0 project-details text-left">
+										Format: 
+										<a class="format" href="http://dark-age-productions.com/product/akhkharu-nos-noctium-dominarium-cd/" target="_blank">
+										CD</a>, 
+										<a class="format" href="http://dark-age-productions.com/product/akhkharu-nos-noctium-dominarium-cassette/" target="_blank">
+										CS</a>, 
+										<a class="format" href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium" target="_blank">Digital Download</a>
+									</p>
+									<p></p>
+									<span><a class="status" href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium" target="_blank">Available at Bandcamp</a></span>
+
+									<span><a class="info" href="https://www.discogs.com/release/10182876-Akhkharu-Nos-Noctium-Dominarium" target="_blank">Additional Information</a></span>
+
+									<iframe style="border: 0; width: 300px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2826912755/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium">Nos Noctium Dominarium by AKHKHARU</a></iframe>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<!-- Akhkharu: Nos Noctium Dominarium (Re-issue)-->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-08">
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-nos-noctium-dominarium-reissue-300.png" title="Akhkharu: Nos Noctium Dominarium (Re-Issue)" alt="Nos Noctium Dominarium (Re-Issue) Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-08">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">Nos Noctium Dominarium</h5>
+									<h5 class="h5-custom-white text-center">(Re-Issue)</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Re-issue of the seminal 1996 opus nocturne, Nos Noctium Dominarium:</p>
+									<p></p>
+									<p class="mb-0 project-description">CD version features a 4 page booklet of sigils and ships with exclusive AKHKHARU logo pin.</p>
+									<p></p>
+									<p class="mb-0 project-description">Cassette version features a 4 panel J-card of sigils, black shell with white ink, factory sealed in a clear norelco case, and ships with exclusive AKHKHARU logo pin.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 1996 / 2017</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="http://dark-age-productions.com/" target="_blank">
+										Dark Age Productions</a> / 
+										<a class="label" href="http://www.advaitaaudio.com/" target="_blank">
+										Advaita Audio</a>
+									</p>
+									<p class="mb-0 project-details text-left">
+										Format: 
+										<a class="format" href="http://dark-age-productions.com/product/akhkharu-nos-noctium-dominarium-cd/" target="_blank">
+										CD</a>, 
+										<a class="format" href="http://dark-age-productions.com/product/akhkharu-nos-noctium-dominarium-cassette/" target="_blank">
+										CS</a>, 
+										<a class="format" href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium" target="_blank">Digital Download</a>
+									</p>
+									<p></p>
+									<span><a class="status" href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium" target="_blank">Available at Bandcamp</a></span>
+
+									<span><a class="info" href="https://www.discogs.com/release/10182876-Akhkharu-Nos-Noctium-Dominarium" target="_blank">Additional Information</a></span>
+
+									<iframe style="border: 0; width: 300px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2826912755/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://darkageproductions.bandcamp.com/album/nos-noctium-dominarium">Nos Noctium Dominarium by AKHKHARU</a></iframe>
+								</div>
+							</div>
+						</div>
+					</div>				
+					<!-- Various Artists: Berith Zine, Chapter 3 -->		
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-07">				
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-berith-300.png" title="Various Artists: Berith Zine, Chapter 3" alt="Various Artists: Berith Zine, Chapter 3 Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-07">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">Various Artists</h3>
+									<h5 class="h5-custom-white text-center">Berith Zine, Chapter 3</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Featuring: Gnosis Occultus, Daphelium, Suicidal Nazareth, Eneysth, Ishnagar, Crimson Moon, Balfor, and Akhkharu.</p>
+									<p></p>
+									<p class="mb-0 project-description">AKHKHARU track: “Das Swartze Order und das Gesetzen (The Law of the Black Order)”.</p>
+									<p></p>
+									<p class="mb-0 project-description">Akhtya Nachttoter: Script & Vocal Evocation</p>
+									<p class="mb-0 project-description">Annuna Ki: Music & Audio Sorcery</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p></p>
+									<p class="mb-0 project-details text-left">Year: 2016</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="https://www.facebook.com/Alexa.Records/" target="_blank">
+										Alexa Records</a>
+									</p>
+									<p class="mb-0 project-details text-left">Format: Fanzine with t-shirt, patch, poster, and CD</p>
+									<p></p>
+									<p></p>
+									<span>
+										<a class="status" href="https://berithzine.bigcartel.com/product/berith-zine-iii" target="_blank">Available at Berith Zine</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/9724719-Various-Berith-Zine-Vo-III" target="_blank">Additional Information</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Akhkharu: Celebratum -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-06">
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-celebratum-300.png" title="Akhkharu: Celebratum" alt="Celebratum Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-06">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">Celebratum</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Celebratum: remixed, remastered, and exclusive newly reworked material sourced from the DAT masters from AKHKHARU’s three scarce cassette releases, originally issued in 1995 / 1996 by Ishnigarrab Recordings and Dark Age Productions.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 2013</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="http://www.silcharderecords.com/" target="_blank">
+										Silcharde Records</a> / 
+										<a class="label" href="http://www.nwnprod.com/" target="_blank">
+										Nuclear War Now</a>
+									</p>
+									<p class="mb-0 project-details text-left">
+										Format: 
+										<a class="format" href="https://shop.nwnprod.com/index.php?route=product/product&product_id=2401" target="_blank">
+										CD</a>, 
+										<a class="format" href="https://nuclearwarnowproductions.bandcamp.com/album/celebratum" target="_blank">Digital Download</a>
+									</p>
+									<p></p>
+									<p></p>
+									<span>
+										<a class="status" href="https://nuclearwarnowproductions.bandcamp.com/album/celebratum" target="_blank">Available at Bandcamp</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/4211896-Akhkharu-Celebratum" target="_blank">Additional Information</a>
+									</span>
+										
+									<iframe style="border: 0; width: 300px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1247346718/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://nuclearwarnowproductions.bandcamp.com/album/celebratum">Celebratum</a></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Black Seas of Infinity: The Wordless Aeon Has Awakened -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-05">			
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-the-wordless-aeon-has-awakened-300.png" title="Various Artists: The Fossil Dungeon" alt="The Fossil Dungeon Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-05">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">Black Seas of Infinity</h3>
+									<h5 class="h5-custom-white text-center">The Wordless Aeon Has Awakened</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Limited edition of 100, packaged with human and animal bone fragments, grave dirt and other sacraments in a velvet pouch with original sigil artwork (no two are alike).</p>
+									<p></p>
+									<p class="mb-0 project-description">AKHKHARU track: B-side remix of all album tracks.</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 2008</p>
+									<p class="mb-0 project-details text-left">Label: Death Posture Ritualis</p>
+									<p class="mb-0 project-details text-left">
+										Format: 
+										CS</a>, 
+										<a class="format" href="https://blackseasofinfinity.bandcamp.com/album/the-wordless-aeon-has-awakened" target="_blank">Digital Download</a>
+									</p>
+									<p></p>
+									<span>
+										<a class="status" href="https://blackseasofinfinity.bandcamp.com/album/the-wordless-aeon-has-awakened" target="_blank">Available at Bandcamp</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/2288780-Black-Seas-Of-Infinity-The-Wordless-Aeon-Has-Awakened" target="_blank">Additional Information</a>
+									</span>
+										
+									<iframe style="border: 0; width: 300px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=4108479044/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://blackseasofinfinity.bandcamp.com/album/the-wordless-aeon-has-awakened">The Wordless Aeon has Awakened</a></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Various Artists: The Fossil Dungeon -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-04">					
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-the-fossil-dungeon-300.png" title="Various Artists: The Fossil Dungeon" alt="The Fossil Dungeon Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-04">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">Various Artists</h3>
+									<h5 class="h5-custom-white text-center">The Fossil Dungeon</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Featuring: Cernunnos Woods, Akhkharu, Equitant, Profane Grace, Nythra, Valor, Proscriptor, Akrabu, and The Soil Bleeds Black.</p>
+									<p></p>
+									<p class="mb-0 project-description">AKHKHARU track: “Nos Noctium Dominarium” (excerpt).</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 2000</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="https://www.discogs.com/label/16388-Memento-Mori" target="_blank">
+										Memento Mori</a> / 
+										<a class="label" href="http://dark-age-productions.com/" target="_blank">
+										Dark Age Productions</a>
+									</p>
+									<p class="mb-0 project-details text-left">Format: CD</p>
+									<p></p>
+									<span>
+										<a class="status" href="https://www.discogs.com/release/188098-Various-The-Fossil-Dungeon" target="_blank">Out-of-Print</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/188098-Various-The-Fossil-Dungeon" target="_blank">Additional Information</a>
+									</span>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Akhkharu: Nos Noctium Dominarium -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-03">				
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-nos-noctium-dominarium-300.png" title="Akhkharu: Nos Noctium Dominarium" alt="Nos Noctium Dominarium Album Art">
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-03">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">Nos Noctium Dominarium</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Seven track, limited edition release: black cassette housed in a clear flexi polycase with clear glossy inlay panel and additional cardboard slipcase.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 1996</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="http://dark-age-productions.com/" target="_blank">
+										Dark Age Productions</a>
+									</p>
+									<p class="mb-0 project-details text-left">Format: CS</p>
+									<p></p>
+									<span>
+										<a class="status" href="https://www.discogs.com/release/253038-Akhkharu-Nos-Noctium-Dominarium" target="_blank">Out-of-Print</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/253038-Akhkharu-Nos-Noctium-Dominarium" target="_blank">Additional Information</a>
+									</span>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Akhkharu: The Chronicle of Shadows; The First Scroll of The Awakening (Chapters I-III) -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-02">					
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-the-chronicle-of-shadows-300.png" title="Akhkharu: Nosferatium Scriptoris" alt="The Chronicle of Shadows; The First Scroll of The Awakening (Chapters I-III) Album Art"/>
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-02">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">The Chronicle of Shadows; The First Scroll of The Awakening (Chapters I-III)</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Limited edition release.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 1995</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="https://www.discogs.com/label/34367-Ishnigarrab-Recordings" target="_blank">
+										Ishnigarrab Recordings</a>
+									</p>
+									<p class="mb-0 project-details text-left">Format: CS</p>
+									<p></p>
+									<span>
+										<a class="status" href="https://www.discogs.com/release/1649079-Akhkharu-The-Chronicle-Of-Shadows-The-First-Scroll-Of-The-Awakening-Chapters-I-III" target="_blank">Out-of-Print</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/1649079-Akhkharu-The-Chronicle-Of-Shadows-The-First-Scroll-Of-The-Awakening-Chapters-I-III" target="_blank">Additional Information</a>
+									</span>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>				
+					<!-- Akhkharu: Nosferatium Scriptoris -->	
+					<div class="col-project-custom m-2 panel-transparent">
+						<div class="col-4-project m-1">
+							<button type="button" class="btnProjectCollapse" data-toggle="collapse" data-target="#textCollapse-01">			
+								<div class="ProjectImage">	
+									<img src="assets/img/wp-album-akhkharu-nosferatium-scriptoris-300.png" title="Akhkharu: Nosferatium Scriptoris" alt="Nosferatium Scriptoris Album Art"/>
+								</div>
+							</button>
+							<div class="project-block my-auto collapse" id="textCollapse-01">
+								<div class="albumTitle">
+									<h3 class="h3-custom-dark black-shadow text-center">AKHKHARU</h3>
+									<h5 class="h5-custom-white text-center">Nosferatium Scriptoris</h5>
+								</div>
+								<div class="albumInfo">
+									<p class="mb-0 project-description">Debut, limited edition release.</p>
+									<p></p>
+									<p class="mb-0 project-description">Blood Moon Ausar: Vocals</p>
+									<p class="mb-0 project-description">Annuna Ki: Music</p>
+									<p></p>
+									<img src="assets/img/akhkharu-sigil-w-100.png" alt="sigil" width="35" height="35" />
+									<p class="mb-0 project-details text-left">Year: 1995</p>
+									<p class="mb-0 project-details text-left">
+										Label: 
+										<a class="label" href="https://www.discogs.com/label/34367-Ishnigarrab-Recordings" target="_blank">
+										Ishnigarrab Recordings</a>
+									</p>
+									<p class="mb-0 project-details text-left">Format: CS</p>
+									<p></p>
+									<span>
+										<a class="status" href="https://www.discogs.com/release/1649075-Akhkharu-Nosferatium-Scriptoris" target="_blank">Out-of-Print</a>
+									</span>
+									<span>
+										<a class="info" href="https://www.discogs.com/release/1649075-Akhkharu-Nosferatium-Scriptoris" target="_blank">Additional Information</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12-design m-2 my-auto text-center">
+						<div>Current 118<a><img src="assets/img/wp-akhkharu-current-118-logo.png" alt="Current118" width="100" height="100" class="glitch" /></a>web design</div>
+					</div>
+				</div>
+				<div class="row-bottom"></div>
+				<div class="row">
+					<div class="col-12-design m-2 my-auto text-center black-shadow-footer" id="copyright" >
+							Akhkharu © <script>document.write( new Date().getFullYear() );</script>
+					</div>
+				</div>
+			</div>
+        </section>
+			<!-- Footer -->
+			<footer class="footer small text-center" id="footer">
+				<div class="container-lg">
+					<div class="row">
+						<div class="col-12-footer-tag-main black-shadow-xl" id="footer-tag-main" style="display:none">
+							<h2>Our Law is Blood...</h2>
+							<h2>Silence is Our Method</h2>
+						</div>
+					</div>
+				</div>
+			</footer>
+		<script src="js/plasma.js"></script>
+	</body>
+	<!-- FadeIn OnLoad -->
+	<script>
+	$(document).ready(function(){
+		$("#nav-brand").hide(0).delay(1500).fadeIn(1500)
+		$("#link-project").hide(0).delay(1500).fadeIn(6000)
+		$("#link-about").hide(0).delay(2500).fadeIn(6000)
+		$("#logo").hide(0).delay(0).fadeIn(3000)
+		$("#circle").hide(0).delay(0).fadeIn(3000)
+		$("#row-glow").hide(0).delay(0).fadeIn(9000)
+		$("#plasma").hide(0).delay(0).fadeIn(9000)
+		$("#footer-tag-main").hide(0).delay(5000).fadeIn(3000)
+		});
+	</script>
+	<!-- top of page on div click -->
+	<script>
+		window.scrollTo(0, 0);
+	</script>
+</html>
