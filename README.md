@@ -2,8 +2,11 @@
 Akhkharu | Our Law is Blood... Silence is Our Method
 
 Akhkharu:
+
 	Akhtya Nachttoter (Michael W. Ford): Script & Vocal Evocation
+	
 	Scorpios Androctonus: Guitars & Bass
+	
 	Annuna Ki (Brian Artwick): Music & Audio Sorcery
 
 https://ishnigarrabrecordings.bandcamp.com
