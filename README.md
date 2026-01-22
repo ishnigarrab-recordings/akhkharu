@@ -1,4 +1,4 @@
-# ishnigarrab-recordings.github.io/akhkharu
+# ishnigarrab-recordings/akhkharu
 Akhkharu | Our Law is Blood... Silence is Our Method
 
 Akhkharu:
